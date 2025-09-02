@@ -1,2 +1,2 @@
 # update-monerod-script
-Script to update monerod
+Script and ansible playboko to update monerod
