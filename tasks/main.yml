@@ -1,0 +1,7 @@
+---
+- name: Update Monero nodes
+  hosts: monero
+  become: no
+  tasks:
+    - name: Run Monero update script
+      ansible.builtin.script: update-monero.sh
